@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*Обнуление*/
+*{padding:0;
+	margin:0;
+	border:0;}
+
+html,body{
+	height:100%;
+	width:100%;
+	font-size:100%;
+	line-height:1;
+	-ms-text-size-adjust:100%;
+	-moz-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+}
+
+
+body{
+	font-family: "Noto Sans";
+	font-size: 16px;
+	}
+
+.backimg{
+	background: url(https://images.unsplash.com/photo-1598760122223-45f0f18a1bbd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80) 0 0/cover no-repeat scroll;
+
+}
+header{
+	background: url(https://images.unsplash.com/photo-1598795441115-e4a55d9122b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80) no-repeat;
+	color: white;
+	background-size: cover;
+	height: 400px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+h1{
+	font-family: "Balsamiq Sans";
+	color: #FFEFD5;
+	font-size: 4rem;
+}
+
+.evenfonts section:nth-child(even){
+	background: #2F4F4F 0 0/100% no-repeat;
+}
+
+.news {
+	text-align: center;
+	padding: 50px 0 32px;
+}
+article{
+	width: 768px;
+	margin: 0 auto 32px;
+	padding: 6px 15px;
+	color: white;
+	border-bottom: 1px solid rgb(128,128,128);
+}
+article a{
+	color: #DAA520;
+	text-decoration: none;
+}
+article a:hover{
+	color: #BDB76B;
+}
+article h2{
+	font-family: "Balsamiq Sans";
+	color: #FFEFD5;
+	margin-bottom: 5px;
+}
+
+.evenfonts section:first-child article a > h2::after, .evenfonts section:nth-child(2) article a > h2::after{
+	content: "NEW";
+	color: red;
+	vertical-align: top;
+	font-size: 0.5em;
+}
+
+.article-meta{
+	color: #696969;
+	margin-bottom: 5px;
+}
+article img{
+	max-height: 400px;
+	width: 100%;
+	object-fit: cover;
+}
+footer{
+	padding-top: 20px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+footer .links {
+	margin-bottom: 50px;
+}
+footer .links > a {
+	color: #636b6f;
+	padding: 0 25px;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: .1rem;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.copyrigth {
+	color: rgb(108, 117, 125);
+	font-family: 'Times New Roman', Times, serif;
+}
